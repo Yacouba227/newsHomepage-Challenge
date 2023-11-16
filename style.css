@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/* .container{
+    background-color: aqua;
+} */
+/* Mise en forme de la partie nav */
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.nav-link ul {
+  display: flex;
+}
+.nav-link ul li {
+  padding: 12px;
+  list-style: none;
+}
+.nav-link ul a {
+  text-decoration: none;
+}
+.logo {
+  font-size: 60px;
+}
+.memeHover{
+  color: white;
+}
+.memeHover:hover{
+  color: rgb(130, 98, 2);
+}
+.mop{
+  color: black;
+}
+.mop:hover,
+nav a:hover{
+  color: rgb(232, 70, 70);
+}
+/* Mise en forme de la deuxieme parties */
+.image {
+  background-image: url(assets/images/image-web-3-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.contenu {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+}
+.first-part {
+  width: 70%;
+}
+.second-part {
+  width: 25%;
+  background-color: rgb(12, 1, 39);
+  color: white;
+  padding: 14px;
+}
+.text {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 1% auto;
+  align-items: center;
+}
+.title {
+  width: 40%;
+  font-size: 16px;
+}
+.paragarphe {
+  width: 50%;
+}
+.read-more {
+  padding: 10px;
+  width: 50%;
+  background-color: rgb(232, 70, 70);
+  border: none;
+  color: white;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.read-more:hover{
+  color: white;
+  background-color: rgb(12, 1, 39);
+}
+.blanc {
+  margin-top: -3%;
+}
+
+.bas {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 2% auto;
+}
+.bas1 {
+  display: flex;
+  width: 32%;
+}
+.bas1Text {
+  padding-left: 12px;
+}
+.bas1Image {
+  background-image: url(assets/images/image-top-laptops.jpg);
+  width: 60%;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bas1Image1 {
+  background-image: url(assets/images/image-retro-pcs.jpg);
+  width: 60%;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bas1Image2 {
+  background-image: url(assets/images/image-gaming-growth.jpg);
+  width: 60%;
+  height: 115px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  color: rgb(138, 137, 137);
+}
+nav .fa {
+  display: none;
+}
+.logo2{
+    display: none;
+}
+@media screen and (max-width: 425px) {
+    .logo2{
+        display: block;
+        font-size: 45px;
+        margin-left: 5%;
+    }
+  .nav-link ul li {
+    display: block;
+  }
+  .nav-link {
+    position: fixed;
+    top: 0;
+    right: -200px;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .fa {
+    display: block;
+    color: #000;
+    margin: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+  }
+  #kil{
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+  }
+  .nav-link ul {
+    padding: 30px;
+  }
+  .blanc
+{
+    padding: 12px;
+}
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-link ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenu {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+  }
+  .first-part{
+    width: 100%;
+    margin: auto;
+  }.text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .title, 
+  .paragarphe{
+    width: 100%;
+  }
+  .second-part{
+    width: 100%;
+    margin:5% auto;
+    padding: 0;
+  }
+  .bas{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .bas1{
+    display: flex;
+  width: 96%;
+  
+  }
+  .bas1Text {
+    padding-left: 12px;
+  }
+  .bas1Image {
+    width: 60%;
+  }
+  .bas1Image1 {
+    width: 60%;
+  }
+  .bas1Image2 {
+    width: 60%;
+  }
+}
